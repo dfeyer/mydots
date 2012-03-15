@@ -30,7 +30,7 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git flow3 textmate osx redis-cli)
+plugins=(git textmate osx redis-cli)
 
 source $ZSH/oh-my-zsh.sh
 
