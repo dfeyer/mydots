@@ -5,9 +5,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="clean"
-
-export EDITOR="vim"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="cloud"
 
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
@@ -31,15 +30,9 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git flow3 textmate osx redis-cli)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-
-if [ -d ~/bin ]; then
-  PATH=~/bin:$PATH
-fi
-
-export $PATH
+export PATH=~/mydots/bin:/opt/sphinx/bin:/usr/local/webstart/sw/php-5.3/bin:~/bin:~/bin/mainline/bin:~/.gem/ruby/1.8/bin:/Users/dom/.ec2/bin:/usr/bin:/bin:/sbin:/usr/local/bin
