@@ -1,3 +1,4 @@
 .*.sw*
 vim/backups/*~
 vim/bundle/*/doc/tags
+doc/tags
